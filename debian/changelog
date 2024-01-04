@@ -1,5 +1,49 @@
-template-repository (1.0-1) unstable; urgency=medium
+commons-text (1.11.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.11.0
+  * Update build dependency on libcommons-lang3-java.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andrius Merkys <merkys@debian.org>  Wed, 08 Nov 2023 09:48:40 -0500
+
+commons-text (1.10.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.10.0
+    - Addresses CVE-2022-42889 (Closes: #1021787)
+  * Update debian/maven.ignoreRules for optional upstream deps
+  * Freshen years in debian/copyright
+  * Bump Standards-Version to 4.6.1
+
+ -- tony mancill <tmancill@debian.org>  Sat, 15 Oct 2022 13:23:14 -0700
+
+commons-text (1.9-2) unstable; urgency=medium
+
+  * Adjusting debian/watch to watch tags instead of releases.
+  * Bumping debhelper-compat (no changes).
+  * Updating copyright years.
+
+ -- Andrius Merkys <merkys@debian.org>  Sun, 24 Oct 2021 02:32:32 -0400
+
+commons-text (1.9-1) unstable; urgency=medium
+
+  * New upstream version 1.9
+  * Updating copyright years.
+  * Ignoring mockito-inline.
+  * Specifying versioned dependency on libcommons-lang3-java.
+  * Removing unneeded README.source.
+  * Adding newline to the end of debian/rules.
+
+ -- Andrius Merkys <merkys@debian.org>  Mon, 27 Jul 2020 09:56:04 -0400
+
+commons-text (1.8-2) unstable; urgency=medium
+
+  * Bumping Standards-Version (no changes).
+  * Adding a watch file.
+
+ -- Andrius Merkys <merkys@debian.org>  Mon, 04 Nov 2019 03:07:41 -0500
+
+commons-text (1.8-1) unstable; urgency=medium
+
+  * Initial release (Closes: #943314)
+
+ -- Andrius Merkys <merkys@debian.org>  Tue, 08 Oct 2019 01:56:13 -0400

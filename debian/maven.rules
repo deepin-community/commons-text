@@ -1,0 +1,6 @@
+
+org.apache.commons commons-parent pom s/.*/debian/ * *
+org.apache.commons commons-text jar s/.*/debian/ * *
+org.apache.maven.plugins maven-changes-plugin * * * *
+org.apache.maven.shared maven-plugin-testing-harness * * * *
+org.apache.rat apache-rat-plugin * * * *
